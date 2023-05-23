@@ -1,0 +1,6 @@
+print('your favorite color')
+color=input()
+print('your favorite fruit')
+fru=input()
+print('the vape favour you should choose is:')
+print(color+' '+fru+'!')

@@ -1,0 +1,15 @@
+year=int(input('Which year do you want to cheak: '))
+
+if year%4==0:
+    if year%100==0:
+
+        if year%400==0:
+            print('Leap year')
+        else:
+            print('Normal year')
+
+    else:
+        print('leap year')
+
+else:
+    print('Normal year')
